@@ -1,0 +1,8 @@
+<h1>Message Board App</h1>
+<ul>
+    {% for post in all_posts_list %}
+        <li>
+            <a>{{ post.text }}</a>
+        </li>
+    {% endfor %}
+</ul>
